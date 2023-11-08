@@ -193,6 +193,11 @@ export const DEFAULT_MODELS = [
     name: "gpt-4-1106-preview",
     available: true,
   },
+// 添加新模型
+//  {
+//    name: "gpt-4-1106-preview",
+//    available: true,
+//  },
 ] as const;
 
 export const CHAT_PAGE_SIZE = 15;
