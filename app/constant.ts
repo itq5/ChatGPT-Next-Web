@@ -86,38 +86,6 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 
 export const DEFAULT_MODELS = [
   {
-    name: "gpt-4",
-    available: true,
-  },
-  {
-    name: "gpt-4-0314",
-    available: true,
-  },
-  {
-    name: "gpt-4-0613",
-    available: true,
-  },
-  {
-    name: "gpt-4-32k",
-    available: true,
-  },
-  {
-    name: "gpt-4-32k-0314",
-    available: true,
-  },
-  {
-    name: "gpt-4-32k-0613",
-    available: true,
-  },
-  {
-    name: "gpt-4-1106-preview",
-    available: true,
-  },
-  {
-    name: "gpt-4-vision-preview",
-    available: true,
-  },
-  {
     name: "gpt-3.5-turbo",
     available: true,
   },
@@ -130,20 +98,99 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-1106",
+    name: "gpt-3.5-turbo-16k",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-16k",
+    name: "gpt-3.5-turbo-16k-0301",
     available: true,
   },
   {
     name: "gpt-3.5-turbo-16k-0613",
     available: true,
   },
-  // add models
   {
-    name: "H0llyW00dzZ-1337-turbo-1337k-1337",
+    name: "gpt-3.5-turbo-1106",
+    available: true,
+  },
+  {
+    name: "dalle",
+    available: true,
+  },
+  {
+    name: "claude-1",
+    available: true,
+  },
+  {
+    name: "claude-2",
+    available: true,
+  },
+  {
+    name: "claude-slack",
+    available: true,
+  },
+  {
+    name: "spark-desk-v1.5",
+    available: true,
+  },
+  {
+    name: "spark-desk-v2",
+    available: true,
+  },
+  {
+    name: "spark-desk-v3",
+    available: true,
+  },
+  {
+    name: "zhipu-chatglm-lite",
+    available: true,
+  },
+  {
+    name: "chat-bison-001",
+    available: true,
+  },
+  {
+    name: "bing-creative",
+    available: true,
+  },
+  {
+    name: "bing-balanced",
+    available: true,
+  },
+  {
+    name: "bing-precise",
+    available: true,
+  },
+  {
+    name: "gpt-4",
+    available: true,
+  },
+  {
+    name: "gpt4-0304",
+    available: true,
+  },
+  {
+    name: "gpt4-0613",
+    available: true,
+  },
+  {
+    name: "gpt4-32k",
+    available: true,
+  },
+  {
+    name: "gpt4-32k-0314",
+    available: true,
+  },
+  {
+    name: "gpt4-32k-0612",
+    available: true,
+  },
+  {
+    name: "gpt-4-vision-preview",
+    available: true,
+  },
+  {
+    name: "gpt-4-1106-preview",
     available: true,
   },
 ] as const;
